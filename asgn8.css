@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.nav_bar {
+    display: flex;
+    justify-items:space-between;
+}
+
+.nav_bar ul {
+    list-style-type: none;
+}
+
+.nav_bar li {
+    display: inline-block;
+    color: black;
+}
+
+.split {
+    padding-right: 5px;
+    position: fixed;
+    right: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 5%;
+}
+
+.heading {
+    font-family: 'Roboto', sans-serif;
+    line-height: 2;
+}
+
+.text {
+    font-family: 'Ramaraja', serif;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    font-size: large;
+}
+
+img {
+    max-width: 400px;
+    max-height: 500px;
+}
+
+.btn {
+    background-color: #824ff1;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    padding-left: 5px;
+}
